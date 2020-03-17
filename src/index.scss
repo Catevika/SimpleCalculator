@@ -1,0 +1,16 @@
+#root {
+	// Photo by Andrew Buchanan on Unsplash
+	background-image: linear-gradient(
+			rgba(69, 80, 83, 0.9),
+			rgba(136, 98, 16, 0.9)
+		),
+		url('https://images.unsplash.com/photo-1558106698-97f5260991b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80');
+	width: 100vw;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

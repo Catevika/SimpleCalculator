@@ -1,0 +1,135 @@
+input {
+	color: #c5e6ee;
+	font-size: 32px;
+	padding-left: 5px;
+}
+
+.result {
+	margin: 15px 0 10px 15px;
+	width: 260px;
+	height: 40px;
+	border-radius: 5px;
+	border: 2px;
+	border-style: inset;
+	background-color: rgb(84, 84, 150);
+	box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #006 0 -1px 9px,
+		rgb(73, 120, 131) 0 2px 14px;
+}
+
+.expression {
+	font-size: 18px;
+	margin: 15px 0 0 15px;
+	width: 260px;
+	height: 30px;
+	border-radius: 5px;
+	border: 2px;
+	border-style: inset;
+	background-color: rgb(84, 84, 150);
+	box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #006 0 -1px 9px,
+		rgb(73, 120, 131) 0 2px 14px;
+	color: #95adb3;
+}
+
+.buttons-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 300px;
+	height: 280px;
+}
+
+.clear-buttons {
+	width: 210px;
+	height: 70px;
+	margin: 0 0 0 -70px;
+}
+
+.button {
+	font-size: 32px;
+	width: 60px;
+	height: 60px;
+	margin: 5px;
+	padding: 0;
+	border-radius: 10px;
+	border-width: 2px;
+	border-style: outset;
+	&:hover {
+		border-style: inset;
+	}
+}
+
+.digits {
+	display: flex;
+	flex-wrap: wrap;
+	width: 210px;
+	height: 280px;
+}
+
+.operators {
+	display: flex;
+	flex-wrap: wrap;
+	width: 70px;
+	height: 280px;
+	margin-top: -70px;
+}
+
+#clear {
+	width: 130px;
+}
+
+#clear,
+#clear-entry,
+#equals {
+	background-color: #65a6b5;
+	border-top-color: #c5e6ee;
+	border-left-color: #c5e6ee;
+	border-right-color: rgba(101, 166, 181, 0.5);
+	border-bottom-color: rgba(101, 166, 181, 0.5);
+	&:hover {
+		border-style: inset;
+		border-top-color: rgba(101, 166, 181, 0.5);
+		border-right-color: #c5e6ee;
+		border-bottom-color: #c5e6ee;
+		border-left-color: rgba(101, 166, 181, 0.5);
+	}
+}
+
+#divide,
+#multiply,
+#add,
+#subtract {
+	background-color: #e7a61a;
+	border-top-color: #ebd8b3;
+	border-left-color: #ebd8b3;
+	border-right-color: rgba(136, 98, 16, 0.5);
+	border-bottom-color: rgba(136, 98, 16, 0.5);
+	&:hover {
+		border-style: inset;
+		border-top-color: rgba(136, 98, 16, 0.5);
+		border-right-color: #ebd8b3;
+		border-bottom-color: #ebd8b3;
+		border-left-color: rgba(136, 98, 16, 0.5);
+	}
+}
+
+#equals {
+	align-self: flex-end;
+	width: 130px;
+	height: 60px;
+	margin-top: -145px;
+	margin-left: 145px;
+}
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine,
+#zero,
+#decimal {
+	background-color: rgb(182, 181, 181);
+}
