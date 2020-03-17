@@ -1,11 +1,13 @@
 {
 	"name": "react-calculator",
+	"homepage": "https://catevika.github.io/SimpleCalculator/",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.1.1",
 		"@testing-library/react": "^10.0.1",
 		"@testing-library/user-event": "^10.0.0",
+		"gh-pages": "^2.2.0",
 		"mathjs": "^6.6.1",
 		"minimist": "^1.2.5",
 		"node-sass": "^4.13.1",
@@ -14,6 +16,8 @@
 		"react-scripts": "^3.4.0"
 	},
 	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
